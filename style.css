@@ -22,15 +22,17 @@ header{
     padding: 0.8rem;
     background-color: rgba(30, 73, 153, 0.596);
     min-height: 40px;
-
+    min-width: 300px;
 
 }
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    gap: 8rem;
+    gap: 4rem;
     flex-wrap: wrap;
+    
+    
 }
 
 .nav-links{
@@ -50,34 +52,41 @@ main{
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    
+    
+   
 }
 
 section{
     padding: 6rem;
 }
 .first-section{
+    
     display: flex;
     justify-content: space-evenly;
-    gap: 2rem;
     flex-wrap: wrap;
     align-items: center;
     min-width: 650px;
     
+    
 }
 
 .first-section > div{
+    
     display: flex;
     flex-direction: column;
-    gap: 0.8rem;
+    gap: 1rem;
     flex-wrap: wrap;
     align-items: center;
     min-width: 300px;
     
 }
 h1{
+    
     font-size: 30px;
 }
 #p-section1{
+  
     font-size: 20px;
 }
 #more{
@@ -100,7 +109,7 @@ h1{
 
 #id-profile{
     max-width: 450px;
-    padding: 1rem;
+    padding: 0.5rem;
    
 
 }
@@ -111,18 +120,18 @@ h1{
 
 .second-section{
     padding: 1px;
-   
     display: flex;
     flex-direction: column;
     gap: 3rem;
     flex-wrap: wrap;
     align-items: center;
     min-width: 300px;
-    min-height: 200px;
+    min-height: 300px;
     
 }
 #id-ul{
     display: flex;
+    flex-wrap: wrap;
     gap: 5rem;
 }
 .third-section{
@@ -133,7 +142,7 @@ h1{
     gap: 2rem;
     flex-wrap: wrap;
     min-width: 300px;
-    min-height: 200px;
+    min-height: 300px;
 }
 footer{
     /*
@@ -150,6 +159,7 @@ footer{
 }
 #id-rodape{
    width: 300px;
+
    display: flex;
    justify-content: space-around;
    
