@@ -14,16 +14,17 @@ body{
 }
 
 header{
-    
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 1rem;
     flex-wrap: wrap;
     padding: 0.8rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     background-color: rgba(30, 73, 153, 0.596);
     min-height: 40px;
-    min-width: 300px;
+    
 
 }
 nav {
@@ -72,6 +73,7 @@ section{
     flex-wrap: wrap;
     align-items: center;
     min-width: 650px;
+    height: 100%;
     
     
 }
@@ -138,6 +140,8 @@ h1{
     display: flex;
     flex-wrap: wrap;
     gap: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 .third-section{
     padding: 1px;
