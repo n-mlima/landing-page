@@ -44,11 +44,13 @@
 
 
 @media(max-width:768px){
+
   
     .navBar .divNavBar img{
         margin-top: -30px;
         height: 100px;
         
+
        
     }
     .navBar .divNavBar .nav_links{
