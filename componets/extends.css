@@ -1,4 +1,12 @@
+@import "./body.css";
+@import "./footer.css";
+@import "./head.css";
+@import "./variables.css";
+@import "./global.css";
+@import "./nav-menu.css";
+
 @import url('https://fonts.googleapis.com/css2?family=Lato');
+/* 
 
 *{
     padding: 0;
@@ -6,7 +14,7 @@
 }
 
 body{
-    /*background-color: rgba(58, 70, 124, 0.589);*/
+    /*background-color: rgba(58, 70, 124, 0.589);
     background-color: rgba(10, 21, 177, 0.096);
     height: 100vh;
     font-family: 'Lato', Arial;
@@ -20,7 +28,7 @@ header{
     gap: 1rem;
     flex-wrap: wrap;
     padding: 0.8rem;
-    background-color: rgba(30, 73, 153, 0.596);
+    background-color: rgba(30, 73, 153, 0.123);
     min-height: 40px;
     
 
@@ -152,7 +160,7 @@ h1{
 }
 footer{
     /*
-    background-color: rgba(58, 70, 124, 0.589);*/
+    background-color: rgba(58, 70, 124, 0.589);
     background-color: rgba(30, 73, 153, 0.596);
    
     display: flex;
@@ -169,4 +177,4 @@ footer{
    display: flex;
    justify-content: space-around;
    
-}
+}*/

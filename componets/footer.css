@@ -1,0 +1,26 @@
+#contacts{
+    display: flex;
+    align-items: baseline;
+    background-color: rgba(30, 73, 153, 0.123);
+    box-shadow: 0 0.4rem 2rem rgb(21, 21, 22);
+    padding: 5rem;
+    height: 60px;
+    
+    
+    
+
+}
+.footer-div{
+   max-width: 55rem;
+    text-align: center;
+    padding: 6rem 2rem 1rem;
+    
+    
+}
+.div-footer a{
+    padding: 2rem;
+     
+}
+.coprygt{
+    padding-top: 2rem;
+}
