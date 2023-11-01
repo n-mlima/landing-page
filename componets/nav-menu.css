@@ -6,14 +6,14 @@
     height: 80px;
     z-index: 10;
     background-color: rgb(145, 163, 197);
-    font-size: 1.6rem;
+    font-size: 1.8rem;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     box-shadow: 0 0rem 2rem rgb(21, 21, 22);
     
 
 }
 .navBar .divNavBar{
     padding: 3rem 4rem 2rem 0rem;
-    
     display: flex;
     justify-content: space-between;
 }
@@ -44,11 +44,11 @@
 
 
 @media(max-width:768px){
-
+  
     .navBar .divNavBar img{
         margin-top: -30px;
         height: 100px;
-
+        
        
     }
     .navBar .divNavBar .nav_links{
@@ -73,9 +73,7 @@
         align-items: center;
         width: 100%;
         position: absolute;
-
-        background-color: rgb(145, 163, 197);
-
+        background-color: rgb(145, 163, 197);;
         top:98% ;
         left: 0;
         padding: 1rem 0;
@@ -93,3 +91,4 @@
     }
 
 }
+
