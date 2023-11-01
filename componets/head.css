@@ -1,14 +1,16 @@
 header{
+    
+    
+    
+}
+.div-header{
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
     gap: 2rem;
     scroll-margin-top: 20rem;
-    
-    
-
 }
-
 header .header_left{
     width: 80%;
     display: flex;
@@ -60,7 +62,7 @@ header .header_left h1{
 
 @media(max-width:768px){
     
-   header{
+    .div-header{
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
