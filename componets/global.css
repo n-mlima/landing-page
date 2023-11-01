@@ -8,8 +8,9 @@ html{
     font-size: 62.5%;
 }
 body{
-    background-color: rgba(230, 231, 235, 0.575)
+    background-color: rgba(230, 231, 235, 0.575);
     /*background-color: rgba(30, 73, 153, 0.123);*/
+
     font-size: 1,6rem;
     margin-top: 15rem;
 }
@@ -21,7 +22,9 @@ a{
     color: inherit;
 }
 h1{
+
     font-size: 3rem;
+
     font-weight: 700;
 }
 
@@ -69,6 +72,7 @@ p:not(:last-of-type),
         font-size: 40%;
     }
    
+
 
     h1{
         font-size: 3.2rem;
