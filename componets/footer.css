@@ -1,8 +1,6 @@
 #contacts{
     display: flex;
     align-items: baseline;
-
-
     padding: 5rem;
     height: 60px;
     
@@ -30,4 +28,3 @@
 
     padding-bottom: 1rem;
 
-}
