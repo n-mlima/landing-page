@@ -5,10 +5,12 @@ header{
     gap: 2rem;
     scroll-margin-top: 20rem;
     
+    
 
 }
 
 header .header_left{
+    width: 80%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,13 +18,14 @@ header .header_left{
     flex: 1;
 }
 header .header_left p{
-
     text-align: center;
-
     max-width: 50rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    font-size: 1.65rem;
 }
+
+
 
 header .header_right{  
     position: relative;
@@ -40,7 +43,6 @@ header .header_left h1{
     
     
 }
-
 #more{
     background-color: rgba(30, 73, 153, 0.596); 
     color: rgba(11, 12, 12, 0.911);
@@ -63,7 +65,7 @@ header .header_left h1{
     flex-direction: column-reverse;
     align-items: center;
    }
-
+   
 
    header .header_right img{  
     height: 200px;
