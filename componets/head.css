@@ -16,10 +16,14 @@ header .header_left{
     flex: 1;
 }
 header .header_left p{
+
+    text-align: center;
+
     max-width: 50rem;
     margin-top: 2rem;
     margin-bottom: 2rem;
 }
+
 header .header_right{  
     position: relative;
     line-height: 0;
@@ -27,9 +31,16 @@ header .header_right{
 header .header_right img{  
     border-radius: 50%;
     padding: 0.5rem;
-    background-color: rgba(109, 109, 199, 0.479);
+    background-color: rgba(13, 13, 14, 0.815);
     height: 300px;
 }
+header .header_left h1{
+  
+    text-align: center;
+    
+    
+}
+
 #more{
     background-color: rgba(30, 73, 153, 0.596); 
     color: rgba(11, 12, 12, 0.911);
@@ -52,6 +63,7 @@ header .header_right img{
     flex-direction: column-reverse;
     align-items: center;
    }
+
 
    header .header_right img{  
     height: 200px;

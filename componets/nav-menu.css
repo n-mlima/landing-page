@@ -49,7 +49,6 @@
     .navBar .divNavBar img{
         margin-top: -30px;
         height: 100px;
-        
 
        
     }
@@ -75,7 +74,9 @@
         align-items: center;
         width: 100%;
         position: absolute;
-        background-color: white;
+
+        background-color: rgb(145, 163, 197);;
+
         top:98% ;
         left: 0;
         padding: 1rem 0;
