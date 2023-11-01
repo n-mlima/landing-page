@@ -1,6 +1,8 @@
 #contacts{
     display: flex;
     align-items: baseline;
+
+
     padding: 5rem;
     height: 60px;
     
@@ -9,13 +11,15 @@
 
 }
 .footer-div{
+
     background-color: rgb(145, 163, 197);
     box-shadow: 0 0rem 2rem rgb(21, 21, 22);
+
     text-align: center;
     padding: 6rem 2rem 1rem;
     
     
-    
+
 }
 .div-footer a{
     padding: 2rem;
@@ -23,5 +27,7 @@
 }
 .coprygt{
     padding-top: 2rem;
+
     padding-bottom: 1rem;
+
 }
