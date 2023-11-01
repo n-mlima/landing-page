@@ -1,36 +1,63 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .section_about{
     
     background-color: rgba(30, 73, 153, 0.123);
     gap: 2rem;
-    scroll-margin-top: 20rem;
+    scroll-margin-top: 15rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     box-shadow: 0 0rem 2rem rgb(21, 21, 22);
-    padding: 2rem;
+    padding: 4rem;
     margin-bottom: 10rem;
-    
-    
-    
+  
     
 }
 
+
 .section_about .div_about_left{
-    border-radius: 10%;
-    background-color: rgba(255, 255, 255, 0.596);
+    
+    background-color: rgba(255, 255, 255, 0.904);
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 4rem;
+    box-shadow: 0 0rem 2rem rgb(21, 21, 22);
     max-width: 67rem;
     
-    border: 2px solid rgb(51, 46, 46);
+    
+    
+}
+
+.section_about .div_about_left h2{
+    font-size: 1.8rem;
+    
+  
+      
+      
+  } 
+.section_about .div_about_left p{
+  padding-top: 2rem;
+  font-size: 1.7rem;
+  letter-spacing: 0.1rem;
+
+    
     
 }
 
 
-   
-.section_about .div_about_right img{
+
+.div_section{
+    display: flex;
+    gap: 2rem;
+    padding: 4rem;
+}
+.about_right img{
+    width: 300px;
     position: relative;
     line-height: 0;
    
@@ -40,6 +67,7 @@ main h1{
     text-align: center;
 }
 .section-skills{
+    
     padding: 4rem;
     background-color: rgba(30, 73, 153, 0.123);
     scroll-margin-top: 15rem;
@@ -55,7 +83,6 @@ main h1{
 }
 .global-list_skill{
     background-color: rgba(255, 255, 255, 0.534);
-    
     display: flex;
     
 }
@@ -65,6 +92,9 @@ main h1{
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 250px;
+    width: 300px;
+
 }
 .div-skills{
     padding-bottom: 4rem;
@@ -95,6 +125,7 @@ main h1{
 
 }
 .section-projects{
+    
     background-color: rgba(30, 73, 153, 0.123);
     padding: 4rem;
     box-shadow: 0 0.4rem 1rem rgb(21, 21, 22);
@@ -134,6 +165,18 @@ main h1{
 }
 
 @media(max-width:768px){
+    .list_skills{
+        
+        height: 200px;
+        width: 250px;
+    
+    }
+    .about_right img{
+        width: 200px;
+       
+       
+        
+    }
     .global-list_skill{
         display:flex;
         flex-direction: column;
