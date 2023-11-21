@@ -1,0 +1,240 @@
+body{
+    
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.section_about{
+    
+    background-color: rgba(30, 73, 153, 0.123);
+    gap: 2rem;
+    scroll-margin-top: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0rem 2rem rgb(21, 21, 22);
+    padding: 4rem;
+    margin-bottom: 10rem;
+  
+    
+}
+
+
+.section_about .div_about_left{
+    
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem;
+    max-width: 67rem;
+    background-color: rgba(240, 248, 255, 0.062);
+    border-width:thick;
+    border-style: double;
+    border-color: rgb(15, 15, 15);
+    
+    
+    
+}
+
+.section_about .div_about_left h2{
+    font-size: 1.8rem;
+    
+  
+      
+      
+  } 
+.section_about .div_about_left p{
+  padding-top: 2rem;
+  font-size: 1.7rem;
+  letter-spacing: 0.1rem;
+
+    
+    
+}
+
+
+
+.div_section{
+    display: flex;
+    gap: 2rem;
+    padding: 4rem;
+}
+.about_right img{
+    width: 300px;
+    position: relative;
+    line-height: 0;
+    border-radius: 50%;
+    padding: 0.5rem;
+    background-image: linear-gradient(to right,  rgb(8, 8, 8),rgb(114, 114, 114) );
+    background-clip: border;
+    -webkit-background-clip: border;
+    color: transparent;
+    height: 300px;
+   
+    
+}
+main h1{
+    text-align: center;
+}
+.section-skills{
+    
+    padding: 4rem;
+    background-color: rgba(30, 73, 153, 0.123);
+    scroll-margin-top: 15rem;
+    box-shadow: 0 0rem 2rem rgb(21, 21, 22);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10rem;
+    
+    
+   
+    
+  
+}
+.global-list_skill{
+    background-color: rgba(240, 248, 255, 0.062);
+    display: flex;
+    
+    
+}
+.list_skills{
+    border: 2px solid rgba(0, 0, 0, 0.199);
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 250px;
+    width: 300px;
+
+}
+.div-skills{
+    padding-bottom: 4rem;
+    
+    
+   
+    
+    
+}
+
+
+.img-item{
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    background-color: rgba(255, 254, 254, 0.356);
+    border-radius: 40%;
+    height: 8rem;
+    width: 8rem;
+    
+    box-shadow: 0 0.4rem 1rem rgb(15, 15, 15);
+    
+}
+
+.description{
+    max-width: 56rem;
+    margin: 0 auto 6 rem;
+    
+
+}
+.section-projects{
+    
+    background-color: rgba(30, 73, 153, 0.123);
+    padding: 4rem;
+    box-shadow: 0 0.4rem 1rem rgb(21, 21, 22);
+    scroll-margin-top: 15rem;
+    
+}
+.section-projects .div-projets{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 4rem;
+
+}
+
+.li-projects{
+    background-color: rgba(240, 248, 255, 0.062);
+    padding: 2rem;
+    display:flex;
+    align-items: center;
+    box-shadow: 0 0.4rem 1rem rgb(21, 21, 22);
+    gap: 2rem;
+    margin-bottom: 6rem;
+
+}
+.img-projects{
+    width: 400px;
+    height: 250px;
+    box-shadow: 0 0.4rem 1rem rgb(15, 15, 15);
+    object-fit: fill;
+}
+
+.li-projects-desc{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+@media(max-width:768px){
+    
+    .div_section{
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 2rem;
+    }
+    .section-projects{
+        max-width: 38rem;
+    }
+    .section-skills{
+        max-width: 38rem;
+    }
+    .list_skills{
+        
+        height: 200px;
+        width: 250px;
+    
+    }
+    .about_right img{
+        width: 250px;
+       
+       
+        
+    }
+    .global-list_skill{
+        display:flex;
+        flex-direction: column;
+        
+    }
+    .section_about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 38rem;
+        
+        
+    }
+
+    .section_about .div_about_left{
+      
+        
+    }
+
+    .img-projects{
+        width: 300px;
+        height: 200px;
+        box-shadow: 0 0.4rem 1rem rgb(15, 15, 15);
+    }
+   .li-projects{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 1rem;
+        
+        
+   }
+   
+ }

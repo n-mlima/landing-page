@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding:0 ;
+    font-family:sans-serif,"verdana";
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    background-image: url("/imagens/dark.jpg");
+    background-repeat: repeat-y;
+    background-size: contain;
+    /*background-color: rgba(30, 73, 153, 0.123);*/
+    font-size: 1,6rem;
+    margin-top: 15rem;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+h1{
+    
+    font-size: 3rem;
+    font-weight: 700;
+
+    border-bottom: 1px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    background-image: linear-gradient(to right,  rgb(235, 229, 230),rgb(28, 28, 48) );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-stroke-width: 0px;
+    -webkit-text-stroke-color: white;
+}
+
+h2{
+    color: white;
+    font-size: 1.6rem;
+    padding-bottom: 1rem;
+    
+}
+
+p, .p{
+    color: white;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 3.5rem;
+}
+
+p:not(:last-of-type),
+.p:not(:last-of-type){
+    margin-bottom: 2rem;
+}
+.btn{
+    background-color: none;
+    border: none;
+    outline: none;
+    padding: 1rem 4rem;
+    display: inline-block;
+    border-radius: 6.5rem;
+}
+.max-width{
+    width: 100%;
+    margin-bottom: 20rem;
+    
+    
+}
+.mb0{
+    margin: 0;
+    
+}
+@media(max-width:1024px){
+    html{
+        font-size: 60%;
+    }
+    h1{
+        font-size: 6rem;
+    }
+}
+@media(max-width:768px){
+    html{
+        font-size: 50%;
+    }
+   
+
+    h1{
+        font-size: 3.2rem;
+    }
+}
