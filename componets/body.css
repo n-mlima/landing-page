@@ -195,7 +195,10 @@ main h1{
 
     align-items: left;
 }
-
+.li-projects-desc h1{
+    color: black;
+    text-align: center;
+}
 @media(max-width:768px){
     
     .div_section{
