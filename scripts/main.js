@@ -5,6 +5,7 @@ const button=document.querySelector(".mob_list");
 button.addEventListener("click",function (){
     mobile_nav.classList.toggle("active");
 
+
 })
 
 var docWidth=document.documentElement.offsetWidth;
@@ -16,3 +17,4 @@ var docWidth=document.documentElement.offsetWidth;
         }
     }
 )
+

@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding:0 ;
+
+
     font-family:sans-serif,"verdana";
 }
 
@@ -8,9 +10,11 @@ html{
     font-size: 62.5%;
 }
 body{
+
     background-image: url("/imagens/dark.jpg");
     background-repeat: repeat-y;
     background-size: contain;
+
     /*background-color: rgba(30, 73, 153, 0.123);*/
     font-size: 1,6rem;
     margin-top: 15rem;
@@ -23,6 +27,7 @@ a{
     color: inherit;
 }
 h1{
+
     
     font-size: 3rem;
     font-weight: 700;
@@ -40,13 +45,16 @@ h1{
 
 h2{
     color: white;
+
     font-size: 1.6rem;
     padding-bottom: 1rem;
     
 }
 
 p, .p{
+
     color: white;
+
     font-weight: 400;
     font-size: 1.6rem;
     line-height: 3.5rem;
@@ -67,8 +75,7 @@ p:not(:last-of-type),
 .max-width{
     width: 100%;
     margin-bottom: 20rem;
-    
-    
+
 }
 .mb0{
     margin: 0;
@@ -91,4 +98,6 @@ p:not(:last-of-type),
     h1{
         font-size: 3.2rem;
     }
+
 }
+
