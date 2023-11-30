@@ -1,29 +1,35 @@
 
-body{
-    
-}
-
 main{
+   
     display: flex;
     flex-direction: column;
     align-items: center;
     
 }
+.div-header{
+    
+    padding:15rem;
+    max-width: 40rem;
+    
+}
+#p-section1{
+    padding-bottom:1rem;
+}
+#hello{
+    text-align:left;
+}
+
 .section_about{
     
     background-color: rgba(30, 73, 153, 0.123);
     gap: 2rem;
-
     scroll-margin-top: 15rem;
-
     display: flex;
     flex-direction: column;
     align-items: center;
     box-shadow: 0 0rem 2rem rgb(21, 21, 22);
     padding: 4rem;
-
     margin-bottom: 10rem;
-
   
     
 }
@@ -31,18 +37,16 @@ main{
 
 .section_about .div_about_left{
     
-
+    
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 4rem;
-
     max-width: 67rem;
     background-color: rgba(240, 248, 255, 0.062);
     border-width:thick;
     border-style: double;
     border-color: rgb(15, 15, 15);
-
     
     
     
@@ -75,7 +79,6 @@ main{
     width: 300px;
     position: relative;
     line-height: 0;
-
     border-radius: 50%;
     padding: 0.5rem;
     background-image: linear-gradient(to right,  rgb(8, 8, 8),rgb(114, 114, 114) );
@@ -100,17 +103,16 @@ main h1{
     align-items: center;
     margin-bottom: 10rem;
     
+    
    
     
   
 }
 .global-list_skill{
-
     background-color: rgba(240, 248, 255, 0.062);
     display: flex;
     
     
-
 }
 .list_skills{
     border: 2px solid rgba(0, 0, 0, 0.199);
@@ -140,9 +142,7 @@ main h1{
     height: 8rem;
     width: 8rem;
     
-
     box-shadow: 0 0.4rem 1rem rgb(15, 15, 15);
-
     
 }
 
@@ -170,9 +170,7 @@ main h1{
 }
 
 .li-projects{
-
     background-color: rgba(240, 248, 255, 0.062);
-
     padding: 2rem;
     display:flex;
     align-items: center;
@@ -186,19 +184,14 @@ main h1{
     height: 250px;
     box-shadow: 0 0.4rem 1rem rgb(15, 15, 15);
     object-fit: fill;
-
 }
 
 .li-projects-desc{
     display: flex;
     flex-direction: column;
-
     align-items: left;
 }
-.li-projects-desc h1{
-    color: black;
-    text-align: center;
-}
+
 @media(max-width:768px){
     
     .div_section{
