@@ -7,52 +7,53 @@
     <link rel="stylesheet" href="./componets/extends.css">
 </head>
 <body>
-    <nav class="navBar max-width mb0">
-        <div class="divNavBar">
-            <a href="/">
-                <img src="./imagens/logo_N.png" alt="Nailson Lima">
-            </a>
-            <ul class="nav_links">
-                <li class="li_links"><a href="#header" class="nav-links">Início</a></li>
-                <li class="li_links"><a href="#about" class="nav-links">Sobre</a></li>
-                <li class="li_links"><a href="#skills" class="nav-links">Habilidades </a></li>
-                <li class="li_links"><a href="#projects" class="nav-links">Projetos </a></li>
-                <li class="li_links"><a href="#contacts" class="nav-links">Contatos</a></li>
-
-            </ul>
-            <div class="nav_mobile">
-                <i class="mob_list">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
-                      </svg>
-                </i>
-                <ul class="nav_links_mobile">
-                    <li class="li_links"><a href="#header_div" class="nav-links">Início</a></li>
+    <header>
+        <nav class="navBar max-width mb0">
+            <div class="divNavBar">
+                <a href="/">
+                    <img src="./imagens/logo_N.png" alt="Nailson Lima">
+                </a>
+                <ul class="nav_links">
+                    <li class="li_links"><a href="#section1" class="nav-links">Início</a></li>
                     <li class="li_links"><a href="#about" class="nav-links">Sobre</a></li>
-                    <li class="li_links"><a href="#skills" class="nav-links">Habilidades</a></li>
-                    <li class="li_links"><a href="#projects" class="nav-links">Projetos</a></li>
+                    <li class="li_links"><a href="#skills" class="nav-links">Habilidades </a></li>
+                    <li class="li_links"><a href="#projects" class="nav-links">Projetos </a></li>
                     <li class="li_links"><a href="#contacts" class="nav-links">Contatos</a></li>
-    
+
                 </ul>
+                <div class="nav_mobile">
+                    <i class="mob_list">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                        </svg>
+                    </i>
+                    <ul class="nav_links_mobile">
+                        <li class="li_links"><a href="#header_div" class="nav-links">Início</a></li>
+                        <li class="li_links"><a href="#about" class="nav-links">Sobre</a></li>
+                        <li class="li_links"><a href="#skills" class="nav-links">Habilidades</a></li>
+                        <li class="li_links"><a href="#projects" class="nav-links">Projetos</a></li>
+                        <li class="li_links"><a href="#contacts" class="nav-links">Contatos</a></li>
+        
+                    </ul>
+                </div>
             </div>
-        </div>
 
-    </nav>
-
-    <header id="header" class="max-width">
-        <div class="div-header" id="header_div">
-            <div class="header_left">
-                <h1 id="hello">Olá, me chamo Nailson Lima </h1>  
-                    <br><p id="p-section1">Tenho 28 anos, graduando em Análise e Desenvolvimento de Sistemas,
-                        e desenvolvedor full stack em formação.</p>
-                    <a class="btn" href="#contacts"" id="more">Saber mais</a>
-            </div>
-           
-        </div>
-       
-
+        </nav>
     </header>
-    <main class="max-width mb0">
+    <main class="max-width">
+        <section id="section1">
+            <div class="div-header" id="header_div">
+                <div class="header_left">
+                    <h1 id="hello">Olá, me chamo Nailson Lima </h1>  
+                        <br><p id="p-section1">Tenho 28 anos, graduando em Análise e Desenvolvimento de Sistemas,
+                            e desenvolvedor full stack em formação.</p>
+                        <a class="btn" href="#contacts"" id="more">Saber mais</a>
+                </div>
+            
+            </div>
+       </section>
+
+   
         <section id="about" class="section_about">
             <h1>Sobre</h1>
             <div class="div_section">
@@ -98,8 +99,6 @@
                 </div>
 
             </div>
-
-
             
         </section>
         <section id="projects" class="section-projects">
@@ -110,11 +109,11 @@
             <ul class="ul-projects">
                 <li class="li-projects">
                     <div class="project-list">
-                        <img class="img-projects" src="imagens/calc.png"   alt="">
+                        <img class="img-projects" src="imagens/portfolio.png"   alt="">
                     </div>
                     <div class="li-projects-desc">
-                        <h2>Calc</h2>
-                        <p>Calculadora que realiza as principais operações básicas da matemática e possui o recurso para alternar entre tema claro/escuro.
+                        <h2>Portfólio</h2>
+                        <p>Portfólio pessoal, desenvolvido em html, css e javascript.
                     </div>   
                     
 
@@ -123,11 +122,11 @@
                 </li>
                 <li class="li-projects">
                     <div class="project-list">
-                        <img class="img-projects" src="imagens/game1.png"   alt="">
+                        <img class="img-projects" src="imagens/desenvolvimento.jpg"   alt="">
                     </div>
                     <div class="li-projects-desc">
-                        <h2>Game tic tac toe</h2>
-                        <p>Clássico jogo da velha
+                        <h2>Em breve</h2>
+                        <p>Novos projetos em andamento, em breve disponíveis para visualização. 
                     </div>   
 
                 </li>
@@ -138,7 +137,7 @@
         
 
     </main>
-    <footer  id="contacts" >
+    <footer id="contacts" >
         <div class="footer-div">  
             <h2>Contatos</h2>
             <div id="id-rodape" class="div-footer">
