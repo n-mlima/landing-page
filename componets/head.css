@@ -5,10 +5,12 @@ header{
     
 }
 #hello{
+    font-size: 3.5rem;
     border-bottom: 1px;
     padding-bottom: 10px;
     margin-bottom: 10px;
-    background-image: linear-gradient(to right,  rgb(235, 229, 230),rgb(28, 28, 48) );
+    background-image: linear-gradient(to right,  rgb(255, 255, 255),rgb(196, 196, 202) );
+    text-shadow: 1px 1px 20px #000000;
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
