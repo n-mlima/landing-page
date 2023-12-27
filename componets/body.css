@@ -152,6 +152,18 @@ main h1{
     
 
 }
+
+#div-link{
+    padding-top: 4rem;
+}
+#link{
+    color:rgb(123, 123, 238);
+    font-size: 1.3rem;
+
+}
+#link:hover{
+    color:gray;
+}
 .section-projects{
     
     background-color: rgba(30, 73, 153, 0.123);
