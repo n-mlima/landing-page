@@ -158,7 +158,11 @@ main h1{
 }
 #link{
     color:rgb(123, 123, 238);
-    font-size: 1.7rem;
+    font-weight: 700;
+    border-bottom: 1px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    font-size: 1.6rem;
 
 }
 #link:hover{
