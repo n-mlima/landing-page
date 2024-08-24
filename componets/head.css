@@ -80,8 +80,8 @@ header .header_left h1{
 }
 #more{
 
-    background-color: rgba(96, 101, 109, 0.973); 
-    color: black;
+    background-color: black;
+    color: white;
     width: 90px;
     align-content: start;
     text-align: center;
