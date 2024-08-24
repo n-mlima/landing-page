@@ -12,8 +12,9 @@ html{
 body{
 
     background-image: url('/imagens/cyber.jpg'); /* Caminho relativo para a imagem */
-    background-repeat: repeat-y;
     background-size: contain;
+    background-repeat: repeat-y;
+   
     
     font-size: 1.6rem;
     margin-top: 15rem;
