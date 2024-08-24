@@ -65,8 +65,7 @@ p:not(:last-of-type),
     margin-bottom: 2rem;
 }
 .btn{
-    background-color: black;
-    color: white;
+    background-color:none;
     border: none;
     outline: none;
     padding: 1rem 4rem;
