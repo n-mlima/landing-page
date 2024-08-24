@@ -11,9 +11,7 @@ html{
 }
 body{
 
-    background-image: url("/imagens/dark.jpg");
-    background-repeat: repeat-y;
-    background-size: contain;
+   
 
     /*background-color: rgba(30, 73, 153, 0.123);*/
     font-size: 1,6rem;
