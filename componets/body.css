@@ -18,9 +18,7 @@ main{
 #hello{
     text-align:left;
 }
-a{
-    font-size: 1.7rem;
-}
+
 .section_about{
     
     background-color: rgba(30, 73, 153, 0.123);
@@ -156,6 +154,7 @@ main h1{
 }
 
 #div-link{
+    font-size: 1.7rem;
     padding-top: 4rem;
 }
 #link{
