@@ -11,7 +11,7 @@ html{
 }
 body{
 
-    background-image: url('images/cyber.jpg'); /* Caminho relativo para a imagem */
+    background-image: url('/images/cyber.jpg'); /* Caminho relativo para a imagem */
     background-size: cover; /* Faz a imagem cobrir toda a área visível */
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Impede a repetição da imagem */
