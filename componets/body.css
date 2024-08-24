@@ -154,12 +154,11 @@ main h1{
 }
 
 #div-link{
-    font-size: 1.7rem;
     padding-top: 4rem;
 }
 #link{
     color:rgb(123, 123, 238);
-    font-size: 1.3rem;
+    font-size: 1.7rem;
 
 }
 #link:hover{
