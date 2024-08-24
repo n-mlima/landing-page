@@ -12,9 +12,8 @@ html{
 body{
 
     background-image: url('/imagens/cyber.jpg'); /* Caminho relativo para a imagem */
-    background-size: cover; /* Faz a imagem cobrir toda a área visível */
-    background-position: center; /* Centraliza a imagem */
-    background-repeat: no-repeat; /* Impede a repetição da imagem */
+    background-repeat: repeat-y;
+    background-size: contain;
     
     font-size: 1.6rem;
     margin-top: 15rem;
